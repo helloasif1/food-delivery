@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="food_delivery.CreatemarketofferController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fffacd;">
+         <children>
+            <Button layoutX="139.0" layoutY="451.0" mnemonicParsing="false" onAction="#sendoffer" prefHeight="46.0" prefWidth="525.0" style="-fx-background-color: #afeeee;" text="send this offer to administrator" />
+            <Button fx:id="bananibutton11" layoutX="661.0" layoutY="523.0" mnemonicParsing="false" onAction="#Backbuttononclick" prefHeight="10.0" prefWidth="108.0" style="-fx-background-color: #afeeee;" text="Back">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="offercombobox" layoutX="142.0" layoutY="69.0" prefHeight="31.0" prefWidth="216.0" promptText="Select Type of Offer" />
+            <Text layoutX="139.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write in details about the offer" />
+            <TextField fx:id="textarea" layoutX="139.0" layoutY="197.0" prefHeight="208.0" prefWidth="525.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #afeeee;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="food_delivery.Res_managerController">
+   <children>
+      <AnchorPane layoutX="308.0" prefHeight="600.0" prefWidth="492.0" style="-fx-background-color: #fffacd;">
+         <children>
+            <TextField fx:id="nameofres" layoutX="152.0" layoutY="82.0" promptText="Name:" />
+            <TextField fx:id="phnofres" layoutX="152.0" layoutY="171.0" promptText="Phone Number: " />
+            <Text layoutX="25.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We are operating in Gulshan, Banani, and Bashundhara ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="129.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your desired location">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="311.0" mnemonicParsing="false" onAction="#gulshanres" prefHeight="63.0" prefWidth="134.0" style="-fx-background-color: #afeeee;" text="Gulshan">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="172.0" layoutY="311.0" mnemonicParsing="false" onAction="#bananires" prefHeight="63.0" prefWidth="134.0" style="-fx-background-color: #afeeee;" text="Banani">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="331.0" layoutY="311.0" mnemonicParsing="false" onAction="#bashundharares" prefHeight="63.0" prefWidth="134.0" style="-fx-background-color: #afeeee;" text="Bashundhara">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="383.0" layoutY="531.0" mnemonicParsing="false" onAction="#BackButtonOnClick" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: #afeeee;" text="Back" />
+            <Label layoutX="153.0" layoutY="42.0" text="Enter Restaurant Name" />
+            <Label layoutX="152.0" layoutY="133.0" text="Enter Phone number" />
+            <Button layoutX="16.0" layoutY="401.0" mnemonicParsing="false" onAction="#receivemessagefromcustomer" prefHeight="31.0" prefWidth="453.0" style="-fx-background-color: #afeeee;" text="Chat to Customer" />
+            <Button layoutX="18.0" layoutY="489.0" mnemonicParsing="false" onAction="#receivemessagefrommarketer" prefHeight="31.0" prefWidth="453.0" style="-fx-background-color: #afeeee;" text="Receive new market offers" />
+            <Button layoutX="19.0" layoutY="446.0" mnemonicParsing="false" onAction="#receivemessagefromrider" prefHeight="31.0" prefWidth="453.0" style="-fx-background-color: #afeeee;" text="Chat to Rider" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="55.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restaurant Manager Homepage" wrappingWidth="230.06884765625">
+         <font>
+            <Font name="Javanese Text" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

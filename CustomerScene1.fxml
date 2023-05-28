@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="bashundharabutton" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #afeeee;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="food_delivery.CustomerScene1Controller">
+   <children>
+      <Text layoutX="25.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Your Location" wrappingWidth="347.1015625">
+         <font>
+            <Font name="Javanese Text" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="gulshanbutton" layoutX="77.0" layoutY="123.0" mnemonicParsing="false" onAction="#GulshanButtonOnClick" prefHeight="92.0" prefWidth="230.0" style="-fx-background-color: #fffacd;" text="Gulshan">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="bananibutton" layoutX="77.0" layoutY="390.0" mnemonicParsing="false" onAction="#Bananibuttononclick" prefHeight="92.0" prefWidth="230.0" style="-fx-background-color: #fffacd;" text="Banani">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="77.0" layoutY="254.0" mnemonicParsing="false" onAction="#BashundharaButtonOnClick" prefHeight="92.0" prefWidth="230.0" style="-fx-background-color: #fffacd;" text="Bashundhara">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="371.0" prefHeight="600.0" prefWidth="428.0" style="-fx-background-color: #fffacd;">
+         <children>
+            <Button layoutX="99.0" layoutY="254.0" mnemonicParsing="false" onAction="#customertoresmanager" prefHeight="92.0" prefWidth="275.0" style="-fx-background-color: #afeeee;" text="Chat to Restaurant">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="bananibutton1" layoutX="313.0" layoutY="535.0" mnemonicParsing="false" onAction="#Backbuttononclick" prefHeight="10.0" prefWidth="108.0" style="-fx-background-color: #afeeee;" text="Back">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="99.0" layoutY="391.0" mnemonicParsing="false" onAction="#customertorider" prefHeight="92.0" prefWidth="275.0" style="-fx-background-color: #afeeee;" text="Chat to Delivery man">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Text layoutX="80.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facing Problems?" wrappingWidth="347.1015625">
+               <font>
+                  <Font name="Javanese Text" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
